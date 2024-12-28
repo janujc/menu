@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setup-tools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "menu"
+version = "1.0.0"
+authors = [
+    {name = "Januario Carreiro", email = "januario.carreiro@outlook.com"}
+]
+readme = "README.md"
+dependencies = [
+    "fastapi[standard]"
+]
