@@ -1,1 +1,2 @@
 fastapi[standard]==0.115.6
+google-cloud-firestore==2.19.0
